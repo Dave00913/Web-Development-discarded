@@ -18,9 +18,12 @@ loginButton.onclick = () => {
         alert('Password is too short! Make it more than 3 characters.')
         return
     }
+    
+    if(usernameInput !== "admin" && passwordInput !=="root") {
+        alert('Username and Passord is incorrect')
+        return
+    }
 
     if(usernameInput === "admin" && passwordInput === "root")
         location.href = "home.html"
-    
-    console.log('You pressed the button!', usernameInput, passwordInput)
 } 

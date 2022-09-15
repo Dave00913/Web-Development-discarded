@@ -14,7 +14,8 @@
 
 #usernameTextBox {
     background-color: #d0ebf7; 
-    border-radius: 5px #4287f5; 
+    border-color: #4287f5;
+    border-radius: 5px; 
     font-size: medium; 
     position: absolute; 
     padding: 5px; 
@@ -31,7 +32,8 @@
 
 #passwordTextBox {
     background-color: #d0ebf7; 
-    border-radius: 5px #4287f5; 
+    border-color: #4287f5;
+    border-radius: 5px; 
     font-size: medium; 
     position: absolute; 
     padding:5px; 
@@ -42,7 +44,8 @@
 
 #loginButton {
     background-color: #d0ebf7; 
-    border-radius: 5px #4287f5; 
+    border-color: #4287f5;
+    border-radius: 5px; 
     height: 30px; 
     width: 150px; 
     position: absolute; 

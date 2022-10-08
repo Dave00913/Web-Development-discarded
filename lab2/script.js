@@ -7,7 +7,7 @@ loginButton.onclick = () => {
         alert('Please input username')
         return
     } else if (usernameInput.length < 3) {
-        alert('Username is too short!! Make it more than 3 characters.')
+        alert('Username is too short! Make it more than 3 characters.')
         return
     }
 
@@ -15,7 +15,7 @@ loginButton.onclick = () => {
         alert('Please input password')
         return
     } else if (passwordInput.length < 3) {
-        alert('Password is too short!! Make it more than 3 characters.')
+        alert('Password is too short! Make it more than 3 characters.')
         return
     }
 
